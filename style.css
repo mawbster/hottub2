@@ -1,0 +1,226 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0'
+}
+
+/* GLOBAL CSS */
+.container {
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+/* HEADER CSS */
+header {
+  background: #354243;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1{
+margin: 0px 0px 0px 40px;
+}
+
+
+header nav {
+  float:right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: blue;
+  font-weight: bold;
+}
+
+/* SHOWCASE CSS */
+#showcase{
+  min-height: 400px;
+  background:url('../img/showcase.png') no-repeat 0 -800px;
+  text-align: center;
+  color: #ffffff;
+  border-bottom: #e8491d 3px solid;
+}
+#showcase h1{
+  margin-top: auto;
+  font-size: 45px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+
+
+
+/* BANNER BOTTOM */
+#bannerbottom{
+  color:#ffffff;
+  background:#35424a;
+  text-align: center;
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter h1{
+  float:left;
+}
+
+/* BOXES HOME*/
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width: 30%;
+  min-width: 250px;
+  padding:15px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+/* BOXES TUBS */
+
+#boxestubs{
+  margin-top:20px;
+}
+
+#boxestubs .box{
+  float:left;
+  text-align: center;
+  width: 30%;
+  min-width: 250px;
+  padding:15px;
+}
+
+#boxestubs .box img{
+  max-width: 100%;
+  min-width: 250px;
+}
+
+#boxestubs li{
+  font: 13px/1.5 Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+
+.title{
+  font: 25px/1.5 Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* FOOTER CSS */
+
+footer {
+  padding: 5px;
+  color: #ffffff;
+  background-color: #354243;
+  text-align: center;
+  border-top: #e8491d 3px solid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+footer div img {
+  width: 30px;
+  margin: 0px 3px 0px 3px;
+}
+
+.fdiv3 {
+  min-width: 59px;
+}
+
+/* MEDIA SCREEN ADJUSTMENTS */
+
+@media screen and (max-width: 768px) {
+  #boxestubs li{
+    list-style: none;
+    margin-top: 15px;
+
+  }
+  }
+
+  /* GALLERY CSS */
+
+  #gallery div {
+    margin-bottom: 10px;
+  }
+  .gallery {
+    font: 18px/1.5 Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: 10%;
+    margin-right: 10%
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 20%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
