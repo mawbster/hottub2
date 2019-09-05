@@ -1,6 +1,6 @@
 <h1>Hire a Hottub Version 2</h1>
 
-<a href="https://hireahottub2.netlify.com/" target="_blank"><img src="img/ht2.png"/></a>
+<a href="https://hireahottub2.netlify.com/" target="_blank"><img src="https://github.com/mawbster/hottub2/blob/master/img/HT2small.png"/></a>
 
 <p> Second iteration of this site Improving on design aspects and learning new skills. </p>
 <ul>
